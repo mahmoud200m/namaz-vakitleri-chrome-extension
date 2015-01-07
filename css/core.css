@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+/* resetCSS (+) http://meyerweb.com/eric/tools/css/reset/ v1.0|20080212 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}ins{text-decoration: none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
+/* resetCSS (-) */
+
+.cl {clear:left ;}
+.cr {clear:right;}
+.cb {clear:both ;}
+
+.hide {visibility:hidden;}
+
+.vacA {display:table; height: 100%; position: relative;}
+.vacB {*position: absolute; top: 50%; display: table-cell; vertical-align: middle;}
+.vacC {*position: relative; top: -50%;}
+
+.left  {float:left;}
+.right {float:left;}
+
+.center {margin:0 auto;}
+
+html, body {height: 100%;}
+
+.debugRED 		{border: 1px solid red}
+.debugYELLOW 	{border: 1px solid yellow}
+.debugGREEN 	{border: 1px solid green}
+.debugBLUE 		{border: 1px solid blue}
+
+.cf:after 			{ content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.cf 				{ display: inline-block;}
+html[xmlns] 	.cf	{ display: block;}
+* html 			.cf	{ height: 1%;}
+
+@font-face
+{
+  font-family: SixCaps;
+  src: url('../font/SixCaps.ttf');
+}
+@font-face
+{
+	font-family: Cuprum;
+	src: url('../font/cuprum.ttf');
+}
+.whiteText {
+	font-family: Cuprum;
+	color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     -1px 0 #000,
+     0 1px #000,
+     1px 0 #000,
+     0 -1px #000;
+}
+.redText {
+	font-family: Cuprum;
+	color: red;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     -1px 0 #fff,
+     0 1px #fff,
+     1px 0 #fff,
+     0 -1px #fff;
+}
+.blueText {
+  font-family: Cuprum;
+  color: blue;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     -1px 0 #fff,
+     0 1px #fff,
+     1px 0 #fff,
+     0 -1px #fff;
+}
+.blueButton {
+  cursor: pointer;
+  padding: 2px 5px;
+  background-color: #4099FF;
+  box-shadow: 0 0 2px 2px #fafafa;
+  border-radius:2px;
+  font-weight: normal;
+}
+
+/* Loading animation */
+.loader{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	margin: -2px 0 0 -2px;
+	border: 2px solid white;
+  background: black;
+  opacity: 0.3;
+  border-radius:20px;
+  overflow: hidden;
+}
+
+
+.bubblingG {
+text-align: center;
+width:80px;
+height:50px;
+}
+
+.bubblingG span {
+display: inline-block;
+vertical-align: middle;
+width: 10px;
+height: 10px;
+margin: 25px auto;
+background: #aaa;
+-moz-border-radius: 50px;
+-moz-animation: bubblingG 0.9s infinite alternate;
+-webkit-border-radius: 50px;
+-webkit-animation: bubblingG 0.9s infinite alternate;
+-ms-border-radius: 50px;
+-ms-animation: bubblingG 0.9s infinite alternate;
+-o-border-radius: 50px;
+-o-animation: bubblingG 0.9s infinite alternate;
+border-radius: 50px;
+animation: bubblingG 0.9s infinite alternate;
+}
+
+#bubblingG_1 {
+-moz-animation-delay: 0s;
+-webkit-animation-delay: 0s;
+-ms-animation-delay: 0s;
+-o-animation-delay: 0s;
+animation-delay: 0s;
+}
+
+#bubblingG_2 {
+-moz-animation-delay: 0.27s;
+-webkit-animation-delay: 0.27s;
+-ms-animation-delay: 0.27s;
+-o-animation-delay: 0.27s;
+animation-delay: 0.27s;
+}
+
+#bubblingG_3 {
+-moz-animation-delay: 0.54s;
+-webkit-animation-delay: 0.54s;
+-ms-animation-delay: 0.54s;
+-o-animation-delay: 0.54s;
+animation-delay: 0.54s;
+}
+
+@-moz-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#aaa;
+-moz-transform: translateY(0);
+}
+
+100% {
+width: 24px;
+height: 24px;
+background-color:#FFFFFF;
+-moz-transform: translateY(-21px);
+}
+
+}
+
+@-webkit-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#aaa;
+-webkit-transform: translateY(0);
+}
+
+100% {
+width: 24px;
+height: 24px;
+background-color:#FFFFFF;
+-webkit-transform: translateY(-21px);
+}
+
+}
+
+@-ms-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#aaa;
+-ms-transform: translateY(0);
+}
+
+100% {
+width: 24px;
+height: 24px;
+background-color:#FFFFFF;
+-ms-transform: translateY(-21px);
+}
+
+}
+
+@-o-keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#aaa;
+-o-transform: translateY(0);
+}
+
+100% {
+width: 24px;
+height: 24px;
+background-color:#FFFFFF;
+-o-transform: translateY(-21px);
+}
+
+}
+
+@keyframes bubblingG {
+0% {
+width: 10px;
+height: 10px;
+background-color:#aaa;
+transform: translateY(0);
+}
+
+100% {
+width: 24px;
+height: 24px;
+background-color:#FFFFFF;
+transform: translateY(-21px);
+}
+
+}
+
+/* */
+.pieContainer {
+  opacity: 0.9;
+      position: relative;
+      height: 24px;
+      width: 24px;
+      display: inline-block;
+      border:1px solid #88b7ff;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -o-border-radius: 12px;
+      border-radius: 12px;
+      -moz-box-shadow: -1px 1px 3px #000;
+      -webkit-box-shadow: -1px 1px 3px #000;
+      -o-box-shadow: -1px 1px 3px #000;
+      box-shadow: -1px 1px 3px #000;
+      background-image: -webkit-radial-gradient(circle, white, #f5f5f5);
+      cursor: pointer;
+ }
+ .disabled_pie{
+      border:1px solid #aaa;
+ }
+ .disabled_pie .pie{
+      background-color:#aaa !important;
+ }
+
+ .pieContainer .pie {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -o-border-radius: 12px;
+      border-radius: 12px;
+      clip: rect(0px, 12px, 24px, 0px);
+      background-color: #88b7ff;
+      opacity: 0.4;
+ }
+ .pieContainer .hold {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      -moz-border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -o-border-radius: 12px;
+      border-radius: 12px;
+      clip: rect(0px, 24px, 24px, 12px);
+ }
+ .pieContainer .num {
+      position: absolute;
+      width: 98%;
+      height: 100%;
+      text-align: center;
+      font-family: Cuprum;
+      font-size: 16px;
+      line-height: 26px;
+ }

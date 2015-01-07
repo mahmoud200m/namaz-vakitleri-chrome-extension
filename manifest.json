@@ -1,0 +1,29 @@
+{
+   "browser_action": {
+      "default_icon": "img/icon_128.png",
+      "default_popup": "namazVakitleri.html",
+      "default_title": "__MSG_title__"
+   },
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "32": "img/icon_32.png",
+      "48": "img/icon_48.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_title__",
+   "default_locale":"en",
+   "options_page": "options.html",
+   "background"   : {
+      "scripts"   : ["js/background.js"]
+   },
+   "permissions": ["activeTab",
+      "notifications",
+      "http://t-services.mobilion.com.tr/",
+      "http://www.fazilettakvimi.com/",
+      "unlimitedStorage"
+   ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "version": "0.3.1.6"
+}

@@ -1,0 +1,769 @@
+{
+  "lang": {
+    "message": "en"
+  },
+  "info_ok": {
+    "message": "Ok"
+  },
+  "version_update_text": {
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Hi, in the last version:<br /><br />* Fixed plugin permissions.<br />* Shows active prayer time.<br />* Fixed watcher bugs and added two colored background.<br />* Added <label class=\"redText\">hijri dates</label> .<br /></div>"
+  },
+  "description": {
+    "message": "Shows you when is the prayer time(s).",
+    "description": "Explanation of extension what it does."
+  },
+  "title": {
+    "message": "Prayer Times",
+    "description": "Name of Extension"
+  },
+  "location_selection": {
+    "message": "Please select your location:"
+  },
+  "time_watcher_selection": {
+    "message": "Time watcher options:"
+  },
+  "time_watcher_selection_1": {
+    "message": "Change time watcher color before"
+  },
+  "time_watcher_selection_2": {
+    "message": " minute(s) to next time."
+  },
+  "could_not_get_data": {
+    "message": "Could not get data; please check your connection!"
+  },
+  "prayer_time_error": {
+    "message": "Couldn't get the prayer times."
+  },
+  "wait_for_updates": {
+    "message": "New features will be added here, please wait for updates."
+  },
+  "hijri_1": {
+    "message":"Muharram"
+  },
+  "hijri_2": {
+    "message":"Safar"
+  },
+  "hijri_3": {
+    "message":"Rabi' I"
+  },
+  "hijri_4": {
+    "message":"Rabi' II"
+  },
+  "hijri_5": {
+    "message":"Jumada I"
+  },
+  "hijri_6": {
+    "message":"Jumada II"
+  },
+  "hijri_7": {
+    "message":"Rajab"
+  },
+  "hijri_8": {
+    "message":"Sha'aban"
+  },
+  "hijri_9": {
+    "message":"Ramadan"
+  },
+  "hijri_10": {
+    "message":"Shawwal"
+  },
+  "hijri_11": {
+    "message":"Dhu al-Qi'dah"
+  },
+  "hijri_12": {
+    "message":"Dhu al-Hijjah"
+  },
+  "city_center": {
+    "message": "-Center of the city-"
+  },
+  "country_1": {
+    "message":"Turkey"
+  },
+  "country_201": {
+    "message":"Northern Cyprus"
+  },
+  "country_2": {
+    "message":"USA"
+  },
+  "country_3": {
+    "message":"Afghanistan"
+  },
+  "country_5": {
+    "message":"Germany"
+  },
+  "country_119": {
+    "message":"Andorra"
+  },
+  "country_110": {
+    "message":"Angola"
+  },
+  "country_123": {
+    "message":"Anguilla"
+  },
+  "country_125": {
+    "message":"Antiqua and Barbuda"
+  },
+  "country_6": {
+    "message":"Argentine"
+  },
+  "country_7": {
+    "message":"Albania"
+  },
+  "country_126": {
+    "message":"Aruba"
+  },
+  "country_8": {
+    "message":"Australia"
+  },
+  "country_9": {
+    "message":"Austria"
+  },
+  "country_10": {
+    "message":"Azerbaijan"
+  },
+  "country_101": {
+    "message":"Bahamas"
+  },
+  "country_108": {
+    "message":"Bahrain"
+  },
+  "country_113": {
+    "message":"Bangladesh"
+  },
+  "country_127": {
+    "message":"Barbados"
+  },
+  "country_11": {
+    "message":"Belarus"
+  },
+  "country_12": {
+    "message":"Belgium"
+  },
+  "country_116": {
+    "message":"Belize"
+  },
+  "country_13": {
+    "message":"Benin"
+  },
+  "country_128": {
+    "message":"Bermuda"
+  },
+  "country_129": {
+    "message":"Bhutan"
+  },
+  "country_14": {
+    "message":"United Arab Emirates"
+  },
+  "country_124": {
+    "message":"Bolivia"
+  },
+  "country_15": {
+    "message":"Bosnia and Herzegovina"
+  },
+  "country_16": {
+    "message":"Botswana"
+  },
+  "country_17": {
+    "message":"Brazil"
+  },
+  "country_130": {
+    "message":"Brunei"
+  },
+  "country_18": {
+    "message":"Bulgaria"
+  },
+  "country_131": {
+    "message":"Burkina Faso"
+  },
+  "country_132": {
+    "message":"Burma (Myanmar)"
+  },
+  "country_133": {
+    "message":"Burundi"
+  },
+  "country_134": {
+    "message":"Chad"
+  },
+  "country_135": {
+    "message":"Cape Verde"
+  },
+  "country_20": {
+    "message":"Algeria"
+  },
+  "country_137": {
+    "message":"Djibouti"
+  },
+  "country_136": {
+    "message":"Comoros"
+  },
+  "country_198": {
+    "message":"Costa Rica"
+  },
+  "country_22": {
+    "message":"Chechnya"
+  },
+  "country_23": {
+    "message":"Czech Republic"
+  },
+  "country_24": {
+    "message":"China"
+  },
+  "country_25": {
+    "message":"Denmark"
+  },
+  "country_199": {
+    "message":"Timor-Leste"
+  },
+  "country_138": {
+    "message":"Dominica"
+  },
+  "country_139": {
+    "message":"Dominican Republic"
+  },
+  "country_200": {
+    "message":"Equator"
+  },
+  "country_140": {
+    "message":"Equatorial Guinea"
+  },
+  "country_98": {
+    "message":"El Salvador"
+  },
+  "country_26": {
+    "message":"Indonesia"
+  },
+  "country_141": {
+    "message":"Eritrea"
+  },
+  "country_27": {
+    "message":"Armenia"
+  },
+  "country_95": {
+    "message":"Estonia"
+  },
+  "country_109": {
+    "message":"Ethiopia"
+  },
+  "country_28": {
+    "message":"Morocco"
+  },
+  "country_142": {
+    "message":"Fiji"
+  },
+  "country_74": {
+    "message":"Côte d’Ivoire"
+  },
+  "country_102": {
+    "message":"Philippines"
+  },
+  "country_29": {
+    "message":"Finland"
+  },
+  "country_30": {
+    "message":"France"
+  },
+  "country_143": {
+    "message":"Gabon"
+  },
+  "country_144": {
+    "message":"Gambia"
+  },
+  "country_31": {
+    "message":"Ghana"
+  },
+  "country_145": {
+    "message":"Gaza Strip"
+  },
+  "country_115": {
+    "message":"Guinea"
+  },
+  "country_148": {
+    "message":"Grenada"
+  },
+  "country_147": {
+    "message":"Gronland‎"
+  },
+  "country_149": {
+    "message":"Guadeloupe"
+  },
+  "country_32": {
+    "message":"Guam"
+  },
+  "country_150": {
+    "message":"Guatemala"
+  },
+  "country_146": {
+    "message":"Guyana"
+  },
+  "country_33": {
+    "message":"South Africa"
+  },
+  "country_195": {
+    "message":"Cyprus"
+  },
+  "country_78": {
+    "message":"South Korea"
+  },
+  "country_34": {
+    "message":"Georgia"
+  },
+  "country_117": {
+    "message":"Haiti"
+  },
+  "country_35": {
+    "message":"Croatia"
+  },
+  "country_36": {
+    "message":"India"
+  },
+  "country_37": {
+    "message":"Netherlands"
+  },
+  "country_194": {
+    "message":"Netherlands Antilles"
+  },
+  "country_151": {
+    "message":"Honduras"
+  },
+  "country_38": {
+    "message":"Hong Kong"
+  },
+  "country_39": {
+    "message":"Iraq"
+  },
+  "country_152": {
+    "message":"Iceland"
+  },
+  "country_40": {
+    "message":"England"
+  },
+  "country_41": {
+    "message":"Iran"
+  },
+  "country_42": {
+    "message":"Republic of Ireland"
+  },
+  "country_43": {
+    "message":"Spain"
+  },
+  "country_44": {
+    "message":"Israel"
+  },
+  "country_45": {
+    "message":"Sweden"
+  },
+  "country_46": {
+    "message":"Switzerland"
+  },
+  "country_47": {
+    "message":"Italy"
+  },
+  "country_56": {
+    "message":"Jamaica"
+  },
+  "country_48": {
+    "message":"Japan"
+  },
+  "country_153": {
+    "message":"Cambodia"
+  },
+  "country_111": {
+    "message":"Cameroon"
+  },
+  "country_19": {
+    "message":"Canada"
+  },
+  "country_4": {
+    "message":"Montenegro"
+  },
+  "country_121": {
+    "message":"Qatar"
+  },
+  "country_49": {
+    "message":"Kazakhstan"
+  },
+  "country_50": {
+    "message":"Kenya"
+  },
+  "country_51": {
+    "message":"Kyrgyzstan"
+  },
+  "country_154": {
+    "message":"Colombia"
+  },
+  "country_52": {
+    "message":"Kingdom of Kongo"
+  },
+  "country_118": {
+    "message":"Republic of Kosova"
+  },
+  "country_53": {
+    "message":"Kuwait"
+  },
+  "country_105": {
+    "message":"North Korea"
+  },
+  "country_21": {
+    "message":"Cuba"
+  },
+  "country_155": {
+    "message":"Laos"
+  },
+  "country_156": {
+    "message":"Lesotho"
+  },
+  "country_104": {
+    "message":"Latvia"
+  },
+  "country_157": {
+    "message":"Liberia"
+  },
+  "country_114": {
+    "message":"Liechtenstein"
+  },
+  "country_54": {
+    "message":"Libya"
+  },
+  "country_55": {
+    "message":"Lithuania"
+  },
+  "country_57": {
+    "message":"Lebanon"
+  },
+  "country_58": {
+    "message":"Luxembourg"
+  },
+  "country_59": {
+    "message":"Hungary"
+  },
+  "country_159": {
+    "message":"Madagascar"
+  },
+  "country_158": {
+    "message":"Macau"
+  },
+  "country_60": {
+    "message":"Republic of Macedonia"
+  },
+  "country_160": {
+    "message":"Malawi"
+  },
+  "country_120": {
+    "message":"Maldives"
+  },
+  "country_61": {
+    "message":"Malaysia"
+  },
+  "country_161": {
+    "message":"Mali"
+  },
+  "country_62": {
+    "message":"Malta"
+  },
+  "country_162": {
+    "message":"Martinique"
+  },
+  "country_163": {
+    "message":"Mauritius"
+  },
+  "country_164": {
+    "message":"Mayotte"
+  },
+  "country_96": {
+    "message":"Mexico"
+  },
+  "country_165": {
+    "message":"Micronesia"
+  },
+  "country_63": {
+    "message":"Egypt"
+  },
+  "country_64": {
+    "message":"Mongolia"
+  },
+  "country_65": {
+    "message":"Moldavia"
+  },
+  "country_66": {
+    "message":"Monaco"
+  },
+  "country_166": {
+    "message":"Montserrat(UK)"
+  },
+  "country_167": {
+    "message":"Mauritania"
+  },
+  "country_168": {
+    "message":"Mozambique"
+  },
+  "country_202": {
+    "message":"Namibia"
+  },
+  "country_169": {
+    "message":"Nepal"
+  },
+  "country_171": {
+    "message":"Niger"
+  },
+  "country_172": {
+    "message":"Nicaragua"
+  },
+  "country_173": {
+    "message":"Niue"
+  },
+  "country_67": {
+    "message":"Nigeria"
+  },
+  "country_68": {
+    "message":"Norway"
+  },
+  "country_175": {
+    "message":"Central African Republic"
+  },
+  "country_69": {
+    "message":"Uzbekistan"
+  },
+  "country_103": {
+    "message":"Pakistan"
+  },
+  "country_176": {
+    "message":"Palau"
+  },
+  "country_99": {
+    "message":"Panama"
+  },
+  "country_177": {
+    "message":"Papua New Guinea"
+  },
+  "country_178": {
+    "message":"Paraguay"
+  },
+  "country_179": {
+    "message":"Peru"
+  },
+  "country_180": {
+    "message":"Pitcairn Islands"
+  },
+  "country_70": {
+    "message":"Poland"
+  },
+  "country_71": {
+    "message":"Portugal"
+  },
+  "country_97": {
+    "message":"Puerto Rico"
+  },
+  "country_181": {
+    "message":"Réunion"
+  },
+  "country_72": {
+    "message":"Romania"
+  },
+  "country_182": {
+    "message":"Rwanda"
+  },
+  "country_73": {
+    "message":"Russia"
+  },
+  "country_183": {
+    "message":"Samoa"
+  },
+  "country_184": {
+    "message":"Senegal"
+  },
+  "country_185": {
+    "message":"Seychelles"
+  },
+  "country_93": {
+    "message":"Serbia"
+  },
+  "country_75": {
+    "message":"Singapore"
+  },
+  "country_107": {
+    "message":"Slovakia"
+  },
+  "country_76": {
+    "message":"Slovenia"
+  },
+  "country_77": {
+    "message":"Somali"
+  },
+  "country_106": {
+    "message":"Sri Lanka"
+  },
+  "country_79": {
+    "message":"Sudan"
+  },
+  "country_186": {
+    "message":"Suriname"
+  },
+  "country_80": {
+    "message":"Syria"
+  },
+  "country_81": {
+    "message":"Saudi Arabia"
+  },
+  "country_203": {
+    "message":"Svalbard"
+  },
+  "country_187": {
+    "message":"Swaziland"
+  },
+  "country_82": {
+    "message":"Chile"
+  },
+  "country_83": {
+    "message":"Tajikistan"
+  },
+  "country_188": {
+    "message":"Tanzania"
+  },
+  "country_84": {
+    "message":"Thailand"
+  },
+  "country_85": {
+    "message":"Táiwān"
+  },
+  "country_86": {
+    "message":"Togo"
+  },
+  "country_190": {
+    "message":"Tonga"
+  },
+  "country_189": {
+    "message":"Trinidad and Tobago"
+  },
+  "country_87": {
+    "message":"Tunisia"
+  },
+  "country_88": {
+    "message":"Turkmenistan"
+  },
+  "country_122": {
+    "message":"Uganda"
+  },
+  "country_89": {
+    "message":"Ukraine"
+  },
+  "country_204": {
+    "message":"Ukraine-Crimea"
+  },
+  "country_174": {
+    "message":"Oman"
+  },
+  "country_191": {
+    "message":"Uruguay"
+  },
+  "country_90": {
+    "message":"Jordan"
+  },
+  "country_192": {
+    "message":"Vanuatu"
+  },
+  "country_193": {
+    "message":"Vatican"
+  },
+  "country_100": {
+    "message":"Venezuela"
+  },
+  "country_91": {
+    "message":"Vietnam"
+  },
+  "country_112": {
+    "message":"Yemen"
+  },
+  "country_170": {
+    "message":"New Caledonia"
+  },
+  "country_92": {
+    "message":"New Zealand"
+  },
+  "country_94": {
+    "message":"Greece"
+  },
+  "country_196": {
+    "message":"Zambia"
+  },
+  "country_197": {
+    "message":"Zimbabwe"
+  },
+  "d_01": {
+    "message": "Sunday"
+  },
+  "d_02": {
+    "message": "Monday"
+  },
+  "d_03": {
+    "message": "Tuesday"
+  },
+  "d_04": {
+    "message": "Wednesday"
+  },
+  "d_05": {
+    "message": "Thursday"
+  },
+  "d_06": {
+    "message": "Friday"
+  },
+  "d_07": {
+    "message": "Saturday"
+  },
+  "m_01": {
+    "message": "January"
+  },
+  "m_02": {
+    "message": "February"
+  },
+  "m_03": {
+    "message": "March"
+  },
+  "m_04": {
+    "message": "April"
+  },
+  "m_05": {
+    "message": "May"
+  },
+  "m_06": {
+    "message": "June"
+  },
+  "m_07": {
+    "message": "July"
+  },
+  "m_08": {
+    "message": "August"
+  },
+  "m_09": {
+    "message": "September"
+  },
+  "m_10": {
+    "message": "October"
+  },
+  "m_11": {
+    "message": "November"
+  },
+  "m_12": {
+    "message": "December"
+  },
+  "fajr": {
+    "message": "Fajr"
+  },
+  "sunrise": {
+    "message": "Sunrise"
+  },
+  "zuhr": {
+    "message": "Zuhr"
+  },
+  "asr": {
+    "message": "Asr"
+  },
+  "maghrib": {
+    "message": "Maghrib"
+  },
+  "isha": {
+    "message": "Isha"
+  },
+  "save": {
+    "message": "Save"
+  }
+}

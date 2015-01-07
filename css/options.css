@@ -1,0 +1,55 @@
+
+	@import url("core.css");
+
+body {
+	background:url(css_img/back.jpg);
+	-webkit-user-select:none;
+}
+
+#container{
+	border:2px solid lightblue;
+	border-radius:20px;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.98)), to(rgba(255,255,255,0.87))),url(../img/back_pattern.jpg) right center;
+	box-shadow: 0 0 5px 5px #fafafa;
+	position: relative;
+	height: 100px;
+	width: 600px;
+	font-family: Cuprum;
+	overflow: hidden;
+}
+
+.prepareInfo .vacA{
+	margin: 0 auto;
+	width: 570px;
+}
+.prepareInfo .prepare, #optionInfo .prepare {
+	text-align: center;
+}
+.prepareInfo select, #optionInfo .prepare select {
+	width: 155px;
+	margin:0 2px 0px 2px;
+}
+
+.submit {
+	border:1px solid darkgreen;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1px 8px;
+	font-size: 16px;
+	text-decoration: none;
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41E649), color-stop(100%,#90F000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #41E649 0%,#90F000 100%);
+}
+.submit:hover {
+	cursor:pointer;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#90F000), color-stop(100%,#41E649)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #90F000 0%,#41E649 100%);
+}
+#optionInfo {
+	margin: 0 auto;
+	width: 95%;
+}
+.time_watcher_pie {
+	margin-bottom: -8px;
+}

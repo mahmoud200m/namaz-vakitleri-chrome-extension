@@ -1,0 +1,769 @@
+{
+  "lang": {
+    "message": "tr"
+  },
+  "info_ok": {
+    "message": "Tamam"
+  },
+  "version_update_text": {
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Merhaba, son sürümde:<br /><br />* Gereksiz izinler kaldırıldı.<br />* Aktif vakit ön plana alındı.<br />* Sayaçtaki hatalar giderildi ve artık sayaç artalanı iki renkli.<br />* <label class=\"redText\">Hicri takvim</label> eklendi.<br /></div>"
+  },
+  "description": {
+    "message": "Seçilen ülkedeki şehre ait günlük namaz vakitlerini gosterir.",
+    "description": "Eklenti açıklaması."
+  },
+  "title": {
+    "message": "Namaz Vakitleri",
+    "description": "Eklenti adı."
+  },
+  "location_selection": {
+    "message": "Lütfen bulunduğunuz konumu seçiniz:"
+  },
+  "time_watcher_selection": {
+    "message": "Sayaç ayarları:"
+  },
+  "time_watcher_selection_1": {
+    "message": "Namaz vaktine"
+  },
+  "time_watcher_selection_2": {
+    "message": "dakika kala sayacın rengini değiştir."
+  },
+  "could_not_get_data": {
+    "message": "Veri alınamadı; bağlantı hatası!"
+  },
+  "prayer_time_error": {
+    "message": "Namaz vakitleri alınamadı."
+  },
+  "wait_for_updates": {
+    "message": "Buraya yakında yeni özellikler eklenecek, yenilikler için eklentinizi güncel tutun."
+  },
+  "hijri_1": {
+    "message":"Muharrem"
+  },
+  "hijri_2": {
+    "message":"Safer"
+  },
+  "hijri_3": {
+    "message":"Rebiülevvel"
+  },
+  "hijri_4": {
+    "message":"Rebiülahir"
+  },
+  "hijri_5": {
+    "message":"Cemaziyelevvel"
+  },
+  "hijri_6": {
+    "message":"Cemaziyelahir"
+  },
+  "hijri_7": {
+    "message":"Recep"
+  },
+  "hijri_8": {
+    "message":"Şaban"
+  },
+  "hijri_9": {
+    "message":"Ramazan"
+  },
+  "hijri_10": {
+    "message":"Şevval"
+  },
+  "hijri_11": {
+    "message":"Zilkade"
+  },
+  "hijri_12": {
+    "message":"Zilhicce"
+  },
+  "city_center": {
+    "message": "-Merkez-"
+  },
+  "country_1": {
+    "message":"TÜRKİYE"
+  },
+  "country_201": {
+    "message":"KUZEY KIBRIS"
+  },
+  "country_2": {
+    "message":"ABD"
+  },
+  "country_3": {
+    "message":"AFGANİSTAN"
+  },
+  "country_5": {
+    "message":"ALMANYA"
+  },
+  "country_119": {
+    "message":"ANDORRA"
+  },
+  "country_110": {
+    "message":"ANGOLA"
+  },
+  "country_123": {
+    "message":"ANGUILLA"
+  },
+  "country_125": {
+    "message":"ANTIQUA AND BARBUDA"
+  },
+  "country_6": {
+    "message":"ARJANTİN"
+  },
+  "country_7": {
+    "message":"ARNAVUTLUK"
+  },
+  "country_126": {
+    "message":"ARUBA"
+  },
+  "country_8": {
+    "message":"AVUSTRALYA"
+  },
+  "country_9": {
+    "message":"AVUSTURYA"
+  },
+  "country_10": {
+    "message":"AZERBAYCAN"
+  },
+  "country_101": {
+    "message":"BAHAMALAR"
+  },
+  "country_108": {
+    "message":"BAHREYN"
+  },
+  "country_113": {
+    "message":"BANGLADEŞ"
+  },
+  "country_127": {
+    "message":"BARBADOS"
+  },
+  "country_11": {
+    "message":"BELARUS"
+  },
+  "country_12": {
+    "message":"BELÇİKA"
+  },
+  "country_116": {
+    "message":"BELİZE"
+  },
+  "country_13": {
+    "message":"BENİN"
+  },
+  "country_128": {
+    "message":"BERMUDA"
+  },
+  "country_129": {
+    "message":"BHUTAN"
+  },
+  "country_14": {
+    "message":"BİRLEŞİK ARAP EMİRLİĞİ"
+  },
+  "country_124": {
+    "message":"BOLİVYA"
+  },
+  "country_15": {
+    "message":"BOSNA HERSEK"
+  },
+  "country_16": {
+    "message":"BOTSWANA"
+  },
+  "country_17": {
+    "message":"BREZİLYA"
+  },
+  "country_130": {
+    "message":"BRUNEI"
+  },
+  "country_18": {
+    "message":"BULGARİSTAN"
+  },
+  "country_131": {
+    "message":"BURKINA FASO"
+  },
+  "country_132": {
+    "message":"BURMA (MYANMAR)"
+  },
+  "country_133": {
+    "message":"BURUNDI"
+  },
+  "country_134": {
+    "message":"CAD"
+  },
+  "country_135": {
+    "message":"CAPE VERDE"
+  },
+  "country_20": {
+    "message":"CEZAYİR"
+  },
+  "country_137": {
+    "message":"CIBUTI"
+  },
+  "country_136": {
+    "message":"COMOROS"
+  },
+  "country_198": {
+    "message":"COSTA RICA"
+  },
+  "country_22": {
+    "message":"ÇEÇENİSTAN"
+  },
+  "country_23": {
+    "message":"ÇEK CUMHURIYETI"
+  },
+  "country_24": {
+    "message":"ÇİN"
+  },
+  "country_25": {
+    "message":"DANİMARKA"
+  },
+  "country_199": {
+    "message":"DOĞU TIMOR"
+  },
+  "country_138": {
+    "message":"DOMINIK"
+  },
+  "country_139": {
+    "message":"DOMINIK CUMHURIYETI"
+  },
+  "country_200": {
+    "message":"EKVATOR"
+  },
+  "country_140": {
+    "message":"EKVATOR GINESI"
+  },
+  "country_98": {
+    "message":"EL SALVADOR"
+  },
+  "country_26": {
+    "message":"ENDONEZYA"
+  },
+  "country_141": {
+    "message":"ERITRE"
+  },
+  "country_27": {
+    "message":"ERMENİSTAN"
+  },
+  "country_95": {
+    "message":"ESTONYA"
+  },
+  "country_109": {
+    "message":"ETYOPYA"
+  },
+  "country_28": {
+    "message":"FAS"
+  },
+  "country_142": {
+    "message":"FIJI"
+  },
+  "country_74": {
+    "message":"FILDISI SAHILLERI"
+  },
+  "country_102": {
+    "message":"FİLİPİNLER"
+  },
+  "country_29": {
+    "message":"FİNLANDİYA"
+  },
+  "country_30": {
+    "message":"FRANSA"
+  },
+  "country_143": {
+    "message":"GABON"
+  },
+  "country_144": {
+    "message":"GAMBIYA"
+  },
+  "country_31": {
+    "message":"GANA"
+  },
+  "country_145": {
+    "message":"GAZA STRIP"
+  },
+  "country_115": {
+    "message":"GİNE"
+  },
+  "country_148": {
+    "message":"GRENADA"
+  },
+  "country_147": {
+    "message":"GRONLAND"
+  },
+  "country_149": {
+    "message":"GUADELOPE"
+  },
+  "country_32": {
+    "message":"GUAM ADASI"
+  },
+  "country_150": {
+    "message":"GUATEMALA"
+  },
+  "country_146": {
+    "message":"GUYANA"
+  },
+  "country_33": {
+    "message":"GÜNEY AFRİKA"
+  },
+  "country_195": {
+    "message":"GÜNEY KIBRIS"
+  },
+  "country_78": {
+    "message":"GÜNEY KORE"
+  },
+  "country_34": {
+    "message":"GÜRCİSTAN"
+  },
+  "country_117": {
+    "message":"HAITI"
+  },
+  "country_35": {
+    "message":"HIRVATİSTAN"
+  },
+  "country_36": {
+    "message":"HİNDİSTAN"
+  },
+  "country_37": {
+    "message":"HOLLANDA"
+  },
+  "country_194": {
+    "message":"HOLLANDA ANTILLERI"
+  },
+  "country_151": {
+    "message":"HONDURAS"
+  },
+  "country_38": {
+    "message":"HONG KONG"
+  },
+  "country_39": {
+    "message":"IRAK"
+  },
+  "country_152": {
+    "message":"IZLANDA"
+  },
+  "country_40": {
+    "message":"İNGİLTERE"
+  },
+  "country_41": {
+    "message":"İRAN"
+  },
+  "country_42": {
+    "message":"İRLANDA"
+  },
+  "country_43": {
+    "message":"İSPANYA"
+  },
+  "country_44": {
+    "message":"İSRAİL"
+  },
+  "country_45": {
+    "message":"İSVEÇ"
+  },
+  "country_46": {
+    "message":"İSVİÇRE"
+  },
+  "country_47": {
+    "message":"İTALYA"
+  },
+  "country_56": {
+    "message":"JAMAIKA"
+  },
+  "country_48": {
+    "message":"JAPONYA"
+  },
+  "country_153": {
+    "message":"KAMBOCYA"
+  },
+  "country_111": {
+    "message":"KAMERUN"
+  },
+  "country_19": {
+    "message":"KANADA"
+  },
+  "country_4": {
+    "message":"KARADAĞ"
+  },
+  "country_121": {
+    "message":"KATAR"
+  },
+  "country_49": {
+    "message":"KAZAKİSTAN"
+  },
+  "country_50": {
+    "message":"KENYA"
+  },
+  "country_51": {
+    "message":"KIRGIZİSTAN"
+  },
+  "country_154": {
+    "message":"KOLOMBIYA"
+  },
+  "country_52": {
+    "message":"KONGO"
+  },
+  "country_118": {
+    "message":"KOSOVA"
+  },
+  "country_53": {
+    "message":"KUVEYT"
+  },
+  "country_105": {
+    "message":"KUZEY KORE"
+  },
+  "country_21": {
+    "message":"KÜBA"
+  },
+  "country_155": {
+    "message":"LAOS"
+  },
+  "country_156": {
+    "message":"LESOTO"
+  },
+  "country_104": {
+    "message":"LETONYA"
+  },
+  "country_157": {
+    "message":"LIBERYA"
+  },
+  "country_114": {
+    "message":"LIECHTENSTEIN"
+  },
+  "country_54": {
+    "message":"LİBYA"
+  },
+  "country_55": {
+    "message":"LİTVANYA"
+  },
+  "country_57": {
+    "message":"LÜBNAN"
+  },
+  "country_58": {
+    "message":"LÜKSEMBURG"
+  },
+  "country_59": {
+    "message":"MACARİSTAN"
+  },
+  "country_159": {
+    "message":"MADAGASKAR"
+  },
+  "country_158": {
+    "message":"MAKAO"
+  },
+  "country_60": {
+    "message":"MAKEDONYA"
+  },
+  "country_160": {
+    "message":"MALAWI"
+  },
+  "country_120": {
+    "message":"MALDİVLER"
+  },
+  "country_61": {
+    "message":"MALEZYA"
+  },
+  "country_161": {
+    "message":"MALI"
+  },
+  "country_62": {
+    "message":"MALTA"
+  },
+  "country_162": {
+    "message":"MARTINIQUE"
+  },
+  "country_163": {
+    "message":"MAURITIUS ADASI"
+  },
+  "country_164": {
+    "message":"MAYOTTE"
+  },
+  "country_96": {
+    "message":"MEKSİKA"
+  },
+  "country_165": {
+    "message":"MIKRONEZYA"
+  },
+  "country_63": {
+    "message":"MISIR"
+  },
+  "country_64": {
+    "message":"MOĞOLiSTAN"
+  },
+  "country_65": {
+    "message":"MOLDAVYA"
+  },
+  "country_66": {
+    "message":"MONACO"
+  },
+  "country_166": {
+    "message":"MONTSERRAT(UK)"
+  },
+  "country_167": {
+    "message":"MORITANYA"
+  },
+  "country_168": {
+    "message":"MOZAMBIK"
+  },
+  "country_202": {
+    "message":"NAMBIYA"
+  },
+  "country_169": {
+    "message":"NEPAL"
+  },
+  "country_171": {
+    "message":"NIJER"
+  },
+  "country_172": {
+    "message":"NIKARAGUA"
+  },
+  "country_173": {
+    "message":"NIUE"
+  },
+  "country_67": {
+    "message":"NİJERYA"
+  },
+  "country_68": {
+    "message":"NORVEÇ"
+  },
+  "country_175": {
+    "message":"ORTA AFRIKA CUMHURIYETI"
+  },
+  "country_69": {
+    "message":"ÖZBEKİSTAN"
+  },
+  "country_103": {
+    "message":"PAKİSTAN"
+  },
+  "country_176": {
+    "message":"PALAU"
+  },
+  "country_99": {
+    "message":"PANAMA"
+  },
+  "country_177": {
+    "message":"PAPUA YENI GINE"
+  },
+  "country_178": {
+    "message":"PARAGUAY"
+  },
+  "country_179": {
+    "message":"PERU"
+  },
+  "country_180": {
+    "message":"PITCAIRN ADASI"
+  },
+  "country_70": {
+    "message":"POLONYA"
+  },
+  "country_71": {
+    "message":"PORTEKİZ"
+  },
+  "country_97": {
+    "message":"PUERTO RICO"
+  },
+  "country_181": {
+    "message":"REUNION"
+  },
+  "country_72": {
+    "message":"ROMANYA"
+  },
+  "country_182": {
+    "message":"RUANDA"
+  },
+  "country_73": {
+    "message":"RUSYA"
+  },
+  "country_183": {
+    "message":"SAMOA"
+  },
+  "country_184": {
+    "message":"SENEGAL"
+  },
+  "country_185": {
+    "message":"SEYCHELLES ADALARI"
+  },
+  "country_93": {
+    "message":"SIRBİSTAN"
+  },
+  "country_75": {
+    "message":"SİNGAPUR"
+  },
+  "country_107": {
+    "message":"SLOVAKYA"
+  },
+  "country_76": {
+    "message":"SLOVENYA"
+  },
+  "country_77": {
+    "message":"SOMALİ"
+  },
+  "country_106": {
+    "message":"SRİ LANKA"
+  },
+  "country_79": {
+    "message":"SUDAN"
+  },
+  "country_186": {
+    "message":"SURINAM"
+  },
+  "country_80": {
+    "message":"SURİYE"
+  },
+  "country_81": {
+    "message":"SUUDİ ARABİSTAN"
+  },
+  "country_203": {
+    "message":"SVALBARD"
+  },
+  "country_187": {
+    "message":"SWAZILAND"
+  },
+  "country_82": {
+    "message":"ŞİLİ"
+  },
+  "country_83": {
+    "message":"TACİKİSTAN"
+  },
+  "country_188": {
+    "message":"TANZANYA"
+  },
+  "country_84": {
+    "message":"TAYLAND"
+  },
+  "country_85": {
+    "message":"TAYVAN"
+  },
+  "country_86": {
+    "message":"TOGO"
+  },
+  "country_190": {
+    "message":"TONGA"
+  },
+  "country_189": {
+    "message":"TRINIDAT VE TOBAGO"
+  },
+  "country_87": {
+    "message":"TUNUS"
+  },
+  "country_88": {
+    "message":"TÜRKMENİSTAN"
+  },
+  "country_122": {
+    "message":"UGANDA"
+  },
+  "country_89": {
+    "message":"UKRAYNA"
+  },
+  "country_204": {
+    "message":"UKRAYNA-KIRIM"
+  },
+  "country_174": {
+    "message":"UMMAN"
+  },
+  "country_191": {
+    "message":"URUGUAY"
+  },
+  "country_90": {
+    "message":"ÜRDÜN"
+  },
+  "country_192": {
+    "message":"VANUATU"
+  },
+  "country_193": {
+    "message":"VATIKAN"
+  },
+  "country_100": {
+    "message":"VENEZUELA"
+  },
+  "country_91": {
+    "message":"VİETNAM"
+  },
+  "country_112": {
+    "message":"YEMEN"
+  },
+  "country_170": {
+    "message":"YENI KALENDONYA"
+  },
+  "country_92": {
+    "message":"YENİ ZELLANDA"
+  },
+  "country_94": {
+    "message":"YUNANİSTAN"
+  },
+  "country_196": {
+    "message":"ZAMBIYA"
+  },
+  "country_197": {
+    "message":"ZIMBABVE"
+  },
+  "d_01": {
+    "message": "Pazar"
+  },
+  "d_02": {
+    "message": "Pazartesi"
+  },
+  "d_03": {
+    "message": "Salı"
+  },
+  "d_04": {
+    "message": "Çarşamba"
+  },
+  "d_05": {
+    "message": "Perşembe"
+  },
+  "d_06": {
+    "message": "Cuma"
+  },
+  "d_07": {
+    "message": "Cumartesi"
+  },
+  "m_01": {
+    "message": "Ocak"
+  },
+  "m_02": {
+    "message": "Şubat"
+  },
+  "m_03": {
+    "message": "Mart"
+  },
+  "m_04": {
+    "message": "Nisan"
+  },
+  "m_05": {
+    "message": "Mayıs"
+  },
+  "m_06": {
+    "message": "Haziran"
+  },
+  "m_07": {
+    "message": "Temmuz"
+  },
+  "m_08": {
+    "message": "Ağustos"
+  },
+  "m_09": {
+    "message": "Eylül"
+  },
+  "m_10": {
+    "message": "Ekim"
+  },
+  "m_11": {
+    "message": "Kasım"
+  },
+  "m_12": {
+    "message": "Aralık"
+  },
+  "fajr": {
+    "message": "İmsak"
+  },
+  "sunrise": {
+    "message": "Güneş"
+  },
+  "zuhr": {
+    "message": "Öğle"
+  },
+  "asr": {
+    "message": "İkindi"
+  },
+  "maghrib": {
+    "message": "Akşam"
+  },
+  "isha": {
+    "message": "Yatsı"
+  },
+  "save": {
+    "message": "Kaydet"
+  }
+}

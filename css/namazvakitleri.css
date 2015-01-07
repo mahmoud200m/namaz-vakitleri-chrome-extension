@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+	@import url("core.css");
+
+body {-webkit-user-select:none;font:bold 10px Verdana, Tahoma, Helvetica, Arial, sans-serif;width:345px;height:485px;background:url(css_img/back.jpg);}
+#container{
+	position: relative;
+	width:320px;
+	height:460px;
+	margin:10px;
+	border:2px solid lightblue;
+	border-radius:20px;
+	background: white;
+
+	background:url(../img/namaz-vakitleri-design.png) left top no-repeat,-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.9)), color-stop(0.1, rgba(255,255,255,0.96)), color-stop(0.4, rgba(255,255,255,0.96)),color-stop(0.5, rgba(255,255,255,0.80)),
+ to(rgba(255,255,255,0.70))),url(../img/back_pattern.jpg) left center;
+	box-shadow: 0 0 5px 5px #fafafa;
+}
+
+#header {
+	height:38px;
+}
+#header a{
+	color:black;
+}#header a:hover{
+	color:#9f9f9f;
+}
+#header h1{
+	margin:10px 0px 0px 120px;
+	font-family: Cuprum;
+	font-size:15px;
+	float: left;
+}
+#date {
+	height:52px;
+	font-weight: normal;
+}
+#date > div {
+	height:100%;
+}
+#date div.arrow {
+	width:40px;
+}
+#date div a {
+	width:100%;
+	height:100%;
+	float: left;
+}
+#date div.content {
+	width:240px;
+	text-align: center;
+	font-family: SixCaps;
+	letter-spacing: 0px;
+	font-size: 35px;
+	line-height: 26px;
+}
+#quote {
+	color: black;
+	height: 82px;
+	text-align: center;
+	position: relative;
+}
+#quote .quote {
+	padding: 0px 5px;
+	display: none;
+}
+#quote .loader {
+	display: none;
+	border-radius: 0px;
+	background: none;
+}
+#quote .loader #top{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	background:-webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.40));
+}
+#quote .loader #bottom{
+	width: 100%;
+	height: 50%;
+	bottom: 0px;
+	position: absolute;
+	background:-webkit-linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0));
+}
+
+#figure {
+	height: 37px;
+}
+.time {
+	height: 33px;
+	font-family: Cuprum;
+	font-size: 18px;
+}
+.time>div {
+	height: 100%;
+	float:left;
+}
+.time .first {
+	width: 88px;
+	text-align: right;
+}
+
+.time .vol{
+	display: inline-block;
+	width: 23px;
+	height: 30px;
+	margin: 3px 4px 0px 8px;
+	background: url(../img/vol_off.png) left center no-repeat;
+}
+.time .vol.on{
+	background: url(../img/vol_on.png) left center no-repeat;
+}
+.time .second {
+	width: 78px;
+}
+.time .third {
+	width: 75px;
+	color: black;
+}
+.time .third.selected{
+	background: url(../img/namaz-vakitleri-selected_time.png) left center no-repeat;
+	color: white;	
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     -1px 0 #000,
+     0 1px #000,
+     1px 0 #000,
+     0 -1px #000;
+}
+.time .fourth .notify{
+	display: inline-block;
+	width: 23px;
+	height: 30px;
+	margin: 2px 3px 0px 5px;
+	background: url(../img/notification.png) left center no-repeat;
+}
+.time .fourth .notify:hover,.time .fourth .notify.on{
+	background-position: -23px center;
+}
+.time .fourth .notify.on:hover{
+	background-position: left center;
+}
+.time .pieContainer{
+	margin-bottom: 3px;
+	text-align: center;
+}
+#location{
+	margin-top: 20px;
+	text-align: center;
+}
+#location a {
+	display:inner-block;
+	text-decoration: none;
+	color: black;
+	font-size: 8px;
+	font-style: bold;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#88b7ff));
+    -webkit-box-shadow: 0px 0px 3px #999;
+    border-radius: 15px;
+    height: 30px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.info {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+vertical-align: middle;
+font-size:14px
+}
+.info .vacC{
+width: 200px;
+margin: 0 auto;
+}
+.info .info_ok{
+float: right;
+margin: 10px 10px 0 0;
+}
+
+#container > .loader{
+  background: none;
+  opacity: 1;
+  border-radius:none;
+}
+#container > .loader > .vacA{
+  background: black;
+  opacity: 0.6;
+  border-radius:20px;
+  overflow: hidden;
+}
