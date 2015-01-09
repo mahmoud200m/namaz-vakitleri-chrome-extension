@@ -17,6 +17,7 @@ $(document).ready(function(){
 	    }
 	}, 100);
 	/* ---- */
+
 	$(".time_watcher_pie").click(function(){
 		$(".vacC", this).attr({"data":$(".vacC", this).text()});
 		localStorage["time_watcher"]=$(".vacC",this).attr("data");
@@ -50,8 +51,23 @@ $(document).ready(function(){
 				$(".loader").stop(true, true).fadeOut(150);
 			}
 		});
+        
 		return false;
 	});
+    
+    $("#reload_times_form").submit(function(){
+		$(".loader").stop(true, true).fadeIn(150);
+		getTimes(localStorage["city"], function(isError){
+			if (!isError) {
+				$("#reload_times_end_date").html(localStorage["lastDate"]);
+			} else {
+				alert(chrome.i18n.getMessage("connection_error"));
+			}
+            $(".loader").stop(true, true).fadeOut(150);
+		});
+        return false;
+    });
+    
 	if (localStorage['ready'] && localStorage['ready']=="true") {
 		getOptions();
 	} else {
@@ -75,6 +91,8 @@ function getOptions() {
 				
 				$(".prepare *[name=city]").val(localStorage["city"]);
 
+                $("#reload_times_end_date").html(localStorage["lastDate"]);
+                
 				$(".loader").fadeOut(150);	
 			});
 		});
@@ -225,12 +243,13 @@ function registerCities(options, isUserChanged){
 	}
 }
 
-function getTimes(a, callback){
+function getTimes(cityCode, callback){
 	$(".loader").stop(true, true).fadeIn(150);
-	updateTimes(a, function(times, isError){
+	updateTimes(cityCode, function(times, lastDate, isError){
 		if (!isError){
 			localStorage["times"]=JSON.stringify(times);
 			localStorage["ready"]=true;
+			localStorage["lastDate"]=lastDate;
 		}
 		callback(isError);
 	});

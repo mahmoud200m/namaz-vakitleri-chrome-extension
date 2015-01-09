@@ -41,23 +41,44 @@
 							<label data-resource="country"></label><select name="country" id=""></select>
 							<label data-resource="province"></label><select name="province" id=""></select>
 							<label data-resource="city"></label><select name="city" id=""></select>
-							<input data-resource="save" type="submit" class="whiteText submit" name="submit" value="Kaydet"/>
+							<input data-resource="save" type="submit" class="whiteText submit" name="submit"/>
 						</form>
-						<span style="display:inline-block;min-height:10px" > </span><hr style="border:none;border-top:1px solid #d0d0d0;"/><span style="display:inline-block;min-height:24px" > </span>
-						<label data-resource="time_watcher_selection" class="whiteText"></label><br />
+						
+                        <span style="display:inline-block;min-height:10px" > </span>
+                        <hr style="border:none;border-top:1px solid #d0d0d0;"/>
+                        <span style="display:inline-block;min-height:24px" > </span>
+						
+                        <label data-resource="time_watcher_selection" class="whiteText"></label><br />
 						<div style="text-align:center">
-						<label data-resource="time_watcher_selection_1"></label>&nbsp;
-						<div class="pieContainer time_watcher_pie">
-					          <div class="num">
-					               <div class="vacA" style="width:100%"><div class="vacB"><div class="vacC">30</div></div></div>
-					          </div>
-					          <div class="hold"><div class="pie"></div></div>
-					          <div class="hold"><div class="pie"></div></div>
+                            <label data-resource="time_watcher_selection_1"></label>&nbsp;
+                            <div class="pieContainer time_watcher_pie">
+                                  <div class="num">
+                                       <div class="vacA" style="width:100%"><div class="vacB"><div class="vacC">30</div></div></div>
+                                  </div>
+                                  <div class="hold"><div class="pie"></div></div>
+                                  <div class="hold"><div class="pie"></div></div>
+                             </div>
+                             <label data-resource="time_watcher_selection_2"></label><br/>
 					     </div>
-					     <label data-resource="time_watcher_selection_2"></label><br/>
+						
+                        <span style="display:inline-block;min-height:10px" > </span>
+                        <hr style="border:none;border-top:1px solid #d0d0d0;"/>
+                        <span style="display:inline-block;min-height:24px" > </span>
+                        
+                        <label data-resource="reload_times_title" class="whiteText"></label><br />
+						<div style="text-align:center">
+                            <label data-resource="reload_times_desc_1"></label>
+                            <label id="reload_times_end_date"></label>&nbsp;
+                            <form id="reload_times_form" class="inline_block" action="#">
+                                <input data-resource="reload_times_desc_2" type="submit" class="whiteText submit" name="submit"/>
+                            </form>
 					     </div>
-						<span style="display:inline-block;min-height:10px" > </span><hr style="border:none;border-top:1px solid #d0d0d0;"/><span style="display:inline-block;min-height:24px" > </span>
-						<label data-resource="wait_for_updates" class="redText"></label>
+						
+                        <span style="display:inline-block;min-height:10px" > </span>
+                        <hr style="border:none;border-top:1px solid #d0d0d0;"/>
+                        <span style="display:inline-block;min-height:24px" > </span>
+						
+                        <label data-resource="wait_for_updates" class="redText"></label>
 					</div></div></div>
 				</div>
 			</div>

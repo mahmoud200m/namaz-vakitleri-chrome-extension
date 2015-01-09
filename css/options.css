@@ -46,6 +46,7 @@ body {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#90F000), color-stop(100%,#41E649)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #90F000 0%,#41E649 100%);
 }
+
 #optionInfo {
 	margin: 0 auto;
 	width: 95%;

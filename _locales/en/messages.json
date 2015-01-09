@@ -12,6 +12,9 @@
     "message": "Shows you when is the prayer time(s).",
     "description": "Explanation of extension what it does."
   },
+  "connection_error": {
+    "message": "Connection error!"
+  },
   "title": {
     "message": "Prayer Times",
     "description": "Name of Extension"
@@ -27,6 +30,15 @@
   },
   "time_watcher_selection_2": {
     "message": " minute(s) to next time."
+  },
+  "reload_times_title": {
+    "message": "Prayer Times Database"
+  },
+  "reload_times_desc_1": {
+    "message": "1 month data loaded. Next update date: "
+  },
+  "reload_times_desc_2": {
+    "message": "Update Now!"
   },
   "could_not_get_data": {
     "message": "Could not get data; please check your connection!"

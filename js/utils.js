@@ -1,4 +1,4 @@
-var diyanetUserPass = "<tem:username>namazuser</tem:username><tem:password>NamVak!14</tem:password>";
+var diyanetUserPass = eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('"<2"+"6"+":5"+"3"+"4"+"e"+">"+"4"+"a"+"3</1"+":"+"8"+"b"+"7><"+"1"+":9"+"h"+"0>c"+"j"+"k!"+"i</2"+"e"+"d"+":"+"f"+"g"+"l"+"0"+">"',22,22,'rd|tem|t|ser|nam|u|em|ame|us|pas|azu|ern|N|m||pa|ss|swo|14|amV|ak|wo'.split('|'),0,{}));
 
 function addRenderTextMethodToCanvas() {
 	if (CanvasRenderingContext2D && !CanvasRenderingContext2D.renderText) {
@@ -269,8 +269,11 @@ function updateTimes(cityCode, callback){
     
 	invokeSoapRequest(url, soapAction, soapXml, function(response, isError){
 		var times = new HashMap();
-		if (!isError) {
+        var lastDate = null;
+		
+        if (!isError) {
 			var xmlDoc = $.parseXML(response);
+            
 			$("NamazVakti", xmlDoc).each(function(){
 				var date = $("MiladiTarihKisa", this).text();
 				var fajr = $("Imsak", this).text().split(":");
@@ -281,6 +284,7 @@ function updateTimes(cityCode, callback){
 				var isha = $("Yatsi", this).text().split(":");
 				var qibla = $("KibleSaati", this).text().split(":");
 
+                lastDate = date;
 				var dateDetail = date.split(".");
 
 				var yearMap = times.get(dateDetail[2]);
@@ -313,14 +317,21 @@ function updateTimes(cityCode, callback){
 				times.put(dateDetail[2], yearMap);
 			});
 		}
-		console.log(times);
-		callback(times, isError);
+		// console.log(times);
+		callback(times, lastDate, isError);
 	});
 }
 
 function getTimesOfDay(date_){
 	var date = date_.format('dd MM yyyy').split(" ");
-	var times = new HashMap(JSON.parse(localStorage["times"]));
+    
+    var times = localStorage["times"];
+    
+    if (times==null || times=="") {
+        return null;
+    }
+    
+	var times = new HashMap(JSON.parse(times));
 	var year_ = times.get(date[2]);
 	var year;
 	var month;

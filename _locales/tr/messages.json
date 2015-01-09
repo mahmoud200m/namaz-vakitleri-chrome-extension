@@ -12,6 +12,9 @@
     "message": "Seçilen ülkedeki şehre ait günlük namaz vakitlerini gosterir.",
     "description": "Eklenti açıklaması."
   },
+  "connection_error": {
+    "message": "Bağlantı hatası!"
+  },
   "title": {
     "message": "Namaz Vakitleri",
     "description": "Eklenti adı."
@@ -27,6 +30,15 @@
   },
   "time_watcher_selection_2": {
     "message": "dakika kala sayacın rengini değiştir."
+  },
+  "reload_times_title": {
+    "message": "Namaz Vakitleri Veritabanı"
+  },
+  "reload_times_desc_1": {
+    "message": "1 aylık veri yüklendi. Sonraki güncelleme tarihi: "
+  },
+  "reload_times_desc_2": {
+    "message": "Şimdi Güncelle!"
   },
   "could_not_get_data": {
     "message": "Veri alınamadı; bağlantı hatası!"

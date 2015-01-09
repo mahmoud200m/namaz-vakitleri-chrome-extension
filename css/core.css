@@ -17,6 +17,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .left  {float:left;}
 .right {float:left;}
 
+.inline_block {display: inline-block;}
+
 .center {margin:0 auto;}
 
 html, body {height: 100%;}
