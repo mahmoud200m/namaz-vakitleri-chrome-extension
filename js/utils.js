@@ -354,6 +354,17 @@ function getTimesOfDay(date_){
 	return null;
 }
 
+function getTimes(cityCode, callback){
+	updateTimes(cityCode, function(times, lastDate, isError){
+		if (!isError){
+			localStorage["times"]=JSON.stringify(times);
+			localStorage["ready"]=true;
+			localStorage["lastDate"]=lastDate;
+		}
+		callback(isError);
+	});
+}
+
 function getQuote(dd, mm, yyyy, callback){
 	var url = "http://www.fazilettakvimi.com/"+chrome.i18n.getMessage("lang")+"/"+yyyy+"/"+mm+"/"+dd+".html";
 	invokeGetRequest(url, function(response, isError){

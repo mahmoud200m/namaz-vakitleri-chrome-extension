@@ -22,11 +22,8 @@ function drawIcon() {
                 text: "..."
             });
             
-            updateTimes(localStorage['city'], function(times, lastDate, isError){
-                if (!isError){
-                    localStorage["times"]=JSON.stringify(times);
-                    localStorage["lastDate"]=lastDate;
-
+            getTimes(localStorage["city"], function(isError){
+                if (!isError) {
                     setTimeout(function () { drawIcon() }, 0);
                 } else {
                     setTimeout(function () { drawIcon() }, 500);

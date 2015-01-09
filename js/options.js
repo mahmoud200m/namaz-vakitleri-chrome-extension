@@ -243,14 +243,4 @@ function registerCities(options, isUserChanged){
 	}
 }
 
-function getTimes(cityCode, callback){
-	$(".loader").stop(true, true).fadeIn(150);
-	updateTimes(cityCode, function(times, lastDate, isError){
-		if (!isError){
-			localStorage["times"]=JSON.stringify(times);
-			localStorage["ready"]=true;
-			localStorage["lastDate"]=lastDate;
-		}
-		callback(isError);
-	});
-}
+
