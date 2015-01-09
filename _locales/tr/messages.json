@@ -1,0 +1,160 @@
+{
+  "lang": {
+    "message": "tr"
+  },
+  "info_ok": {
+    "message": "Tamam"
+  },
+  "version_update_text": {
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Merhaba, yeni versiyonda:<br /><br />* Ekelentimiz artık açık kaynak kodlu!(<a href=\"http://github.com/NamazVakitleri\" target=\"_blank\" class=\"whiteText\">Github</a>).<br />* Yeni `namaz vakitleri altyapısı` kullanıldı.<br />* Hata düzeltmeleri ve güncellemeler yapıldı.<br /></div>"
+  },
+  "description": {
+    "message": "Seçilen ülkedeki şehre ait günlük namaz vakitlerini gosterir.",
+    "description": "Eklenti açıklaması."
+  },
+  "title": {
+    "message": "Namaz Vakitleri",
+    "description": "Eklenti adı."
+  },
+  "location_selection": {
+    "message": "Lütfen bulunduğunuz konumu seçiniz:"
+  },
+  "time_watcher_selection": {
+    "message": "Sayaç ayarları:"
+  },
+  "time_watcher_selection_1": {
+    "message": "Namaz vaktine"
+  },
+  "time_watcher_selection_2": {
+    "message": "dakika kala sayacın rengini değiştir."
+  },
+  "could_not_get_data": {
+    "message": "Veri alınamadı; bağlantı hatası!"
+  },
+  "prayer_time_error": {
+    "message": "Namaz vakitleri alınamadı."
+  },
+  "wait_for_updates": {
+    "message": "Buraya yakında yeni özellikler eklenecek, yenilikler için eklentinizi güncel tutun."
+  },
+  "hijri_1": {
+    "message":"Muharrem"
+  },
+  "hijri_2": {
+    "message":"Safer"
+  },
+  "hijri_3": {
+    "message":"Rebiülevvel"
+  },
+  "hijri_4": {
+    "message":"Rebiülahir"
+  },
+  "hijri_5": {
+    "message":"Cemaziyelevvel"
+  },
+  "hijri_6": {
+    "message":"Cemaziyelahir"
+  },
+  "hijri_7": {
+    "message":"Recep"
+  },
+  "hijri_8": {
+    "message":"Şaban"
+  },
+  "hijri_9": {
+    "message":"Ramazan"
+  },
+  "hijri_10": {
+    "message":"Şevval"
+  },
+  "hijri_11": {
+    "message":"Zilkade"
+  },
+  "hijri_12": {
+    "message":"Zilhicce"
+  },
+  "city_center": {
+    "message": "-Merkez-"
+  },
+  "default_country": {
+    "message":"2"
+  },
+  "d_01": {
+    "message": "Pazar"
+  },
+  "d_02": {
+    "message": "Pazartesi"
+  },
+  "d_03": {
+    "message": "Salı"
+  },
+  "d_04": {
+    "message": "Çarşamba"
+  },
+  "d_05": {
+    "message": "Perşembe"
+  },
+  "d_06": {
+    "message": "Cuma"
+  },
+  "d_07": {
+    "message": "Cumartesi"
+  },
+  "m_01": {
+    "message": "Ocak"
+  },
+  "m_02": {
+    "message": "Şubat"
+  },
+  "m_03": {
+    "message": "Mart"
+  },
+  "m_04": {
+    "message": "Nisan"
+  },
+  "m_05": {
+    "message": "Mayıs"
+  },
+  "m_06": {
+    "message": "Haziran"
+  },
+  "m_07": {
+    "message": "Temmuz"
+  },
+  "m_08": {
+    "message": "Ağustos"
+  },
+  "m_09": {
+    "message": "Eylül"
+  },
+  "m_10": {
+    "message": "Ekim"
+  },
+  "m_11": {
+    "message": "Kasım"
+  },
+  "m_12": {
+    "message": "Aralık"
+  },
+  "fajr": {
+    "message": "İmsak"
+  },
+  "sunrise": {
+    "message": "Güneş"
+  },
+  "zuhr": {
+    "message": "Öğle"
+  },
+  "asr": {
+    "message": "İkindi"
+  },
+  "maghrib": {
+    "message": "Akşam"
+  },
+  "isha": {
+    "message": "Yatsı"
+  },
+  "save": {
+    "message": "Kaydet"
+  }
+}

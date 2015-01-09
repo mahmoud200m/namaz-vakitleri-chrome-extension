@@ -1,0 +1,160 @@
+{
+  "lang": {
+    "message": "en"
+  },
+  "info_ok": {
+    "message": "Ok"
+  },
+  "version_update_text": {
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Hi, in the last version:<br /><br />* Extension is now Open Source!(<a href=\"http://github.com/NamazVakitleri\" target=\"_blank\" class=\"whiteText\">Github</a>).<br />* New `prayer times data source` used.<br />* Bug fixes and improvements.<br /></div>"
+  },
+  "description": {
+    "message": "Shows you when is the prayer time(s).",
+    "description": "Explanation of extension what it does."
+  },
+  "title": {
+    "message": "Prayer Times",
+    "description": "Name of Extension"
+  },
+  "location_selection": {
+    "message": "Please select your location:"
+  },
+  "time_watcher_selection": {
+    "message": "Time watcher options:"
+  },
+  "time_watcher_selection_1": {
+    "message": "Change time watcher color before"
+  },
+  "time_watcher_selection_2": {
+    "message": " minute(s) to next time."
+  },
+  "could_not_get_data": {
+    "message": "Could not get data; please check your connection!"
+  },
+  "prayer_time_error": {
+    "message": "Couldn't get the prayer times."
+  },
+  "wait_for_updates": {
+    "message": "New features will be added here, please wait for updates."
+  },
+  "hijri_1": {
+    "message":"Muharram"
+  },
+  "hijri_2": {
+    "message":"Safar"
+  },
+  "hijri_3": {
+    "message":"Rabi' I"
+  },
+  "hijri_4": {
+    "message":"Rabi' II"
+  },
+  "hijri_5": {
+    "message":"Jumada I"
+  },
+  "hijri_6": {
+    "message":"Jumada II"
+  },
+  "hijri_7": {
+    "message":"Rajab"
+  },
+  "hijri_8": {
+    "message":"Sha'aban"
+  },
+  "hijri_9": {
+    "message":"Ramadan"
+  },
+  "hijri_10": {
+    "message":"Shawwal"
+  },
+  "hijri_11": {
+    "message":"Dhu al-Qi'dah"
+  },
+  "hijri_12": {
+    "message":"Dhu al-Hijjah"
+  },
+  "city_center": {
+    "message": "-Center of the city-"
+  },
+  "default_country": {
+    "message":"2"
+  },
+  "d_01": {
+    "message": "Sunday"
+  },
+  "d_02": {
+    "message": "Monday"
+  },
+  "d_03": {
+    "message": "Tuesday"
+  },
+  "d_04": {
+    "message": "Wednesday"
+  },
+  "d_05": {
+    "message": "Thursday"
+  },
+  "d_06": {
+    "message": "Friday"
+  },
+  "d_07": {
+    "message": "Saturday"
+  },
+  "m_01": {
+    "message": "January"
+  },
+  "m_02": {
+    "message": "February"
+  },
+  "m_03": {
+    "message": "March"
+  },
+  "m_04": {
+    "message": "April"
+  },
+  "m_05": {
+    "message": "May"
+  },
+  "m_06": {
+    "message": "June"
+  },
+  "m_07": {
+    "message": "July"
+  },
+  "m_08": {
+    "message": "August"
+  },
+  "m_09": {
+    "message": "September"
+  },
+  "m_10": {
+    "message": "October"
+  },
+  "m_11": {
+    "message": "November"
+  },
+  "m_12": {
+    "message": "December"
+  },
+  "fajr": {
+    "message": "Fajr"
+  },
+  "sunrise": {
+    "message": "Sunrise"
+  },
+  "zuhr": {
+    "message": "Zuhr"
+  },
+  "asr": {
+    "message": "Asr"
+  },
+  "maghrib": {
+    "message": "Maghrib"
+  },
+  "isha": {
+    "message": "Isha"
+  },
+  "save": {
+    "message": "Save"
+  }
+}
