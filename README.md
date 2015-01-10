@@ -2,6 +2,8 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/NamazVakitleri/namaz-vakitleri-chrome-extension?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Chrome Webstore: https://chrome.google.com/webstore/detail/hadcngpkleegfkpicidhnflpdoaggodi
+
 Prayer Times Chrome Extension |Namaz Vakitleri Chrome Eklentisi 
 ----------------------------------------------------- |----------------------------------------------------
  This plugin allow to you can track your prayer times easily. <br /><br /> Join us or contribute to project on Github! (http://github.com/NamazVakitleri) <br /><br /> | Bu eklenti ile seçtiğiniz ülkedeki namaz vakitlerini öğrenebilirsiniz. <br/><br/> Github'da bize katılın, projeye katkıda bulunun! (http://github.com/NamazVakitleri)<br /><br />
