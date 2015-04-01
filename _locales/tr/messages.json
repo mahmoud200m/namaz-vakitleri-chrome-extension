@@ -6,7 +6,7 @@
     "message": "Tamam"
   },
   "version_update_text": {
-    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Merhaba, yeni versiyonda:<br /><br />* Ekelentimiz artık açık kaynak kodlu!(<a href=\"http://github.com/NamazVakitleri\" target=\"_blank\" class=\"whiteText\">Github</a>).<br />* Yeni `namaz vakitleri altyapısı` kullanıldı.<br />* Hata düzeltmeleri ve güncellemeler yapıldı.<br /></div>"
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Merhaba, yeni versiyonda:<br /><br />* Eklenti içerisindeki yaz saati hesaplaması artık gerekli değil.<br /></div>"
   },
   "description": {
     "message": "Seçilen ülkedeki şehre ait günlük namaz vakitlerini gosterir.",
