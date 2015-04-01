@@ -297,8 +297,9 @@ function updateTimes(cityCode, callback){
 					monthMap=new HashMap();
 				}
 
-				var daylightSaving = new Date(dateDetail[2], (dateDetail[1]-1), dateDetail[0]);
-				var additionalHour = daylightSaving.dst()?1:0;
+				// 0.3.1.7 deki değişiklikle saat düzeltmeye gerek kalmadı.
+				//var daylightSaving = new Date(dateDetail[2], (dateDetail[1]-1), dateDetail[0]);
+				var additionalHour = 0; //daylightSaving.dst()?1:0;
 
 				var dayMap = {
 					fajr   : ((parseInt(fajr[0])+additionalHour)+"").pad(2, "0")+":"+fajr[1].pad(2, "0"),
