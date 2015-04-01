@@ -6,7 +6,7 @@
     "message": "Ok"
   },
   "version_update_text": {
-    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Hi, in the last version:<br /><br />* Extension is now Open Source!(<a href=\"http://github.com/NamazVakitleri\" target=\"_blank\" class=\"whiteText\">Github</a>).<br />* New `prayer times data source` used.<br />* Bug fixes and improvements.<br /></div>"
+    "message": "<div class=\"whiteText\" style=\"font-weight:normal !important;\">Hi, in the last version:<br /><br />* * Daylight saving calculation is not necessary.<br /></div>"
   },
   "description": {
     "message": "Shows you when is the prayer time(s).",
